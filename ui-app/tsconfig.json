@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "declarationDir": "dist",
+    "module": "esnext",
+    "outDir": "dist",
+    "target": "es5",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src"],
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "baseUrl": "src",
+    "downlevelIteration": true,
+    "paths": {
+      "components": ["./components"],
+      "assets": ["./assets"],
+      "styles": ["./styles"],
+      "context": ["./context"],
+      "common": ["./common"],
+      "services": ["./services"]
+    }
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["tests/**"]
+}
